@@ -10,7 +10,6 @@ The project is built on a high-performance foundation using Excel Power Tools:
 
 ### 1. Data Cleaning (Power Query)
 * **Handling NULLs:** Identified that **15% of the "Team" column** was missing. 
-
 * **ETL Steps:** Data types were standardized, and profit margins were calculated at the row level for granular analysis.
 
 ### 2. Star Schema (Data Modeling)
@@ -37,7 +36,7 @@ Implemented core financial KPIs using **Power Pivot (DAX)** to drive the dashboa
 ## 💡 Key Business Insights
 * **Team Performance:** By resolving the NULL values, "Management" was identified as a key sales driver, contributing significantly to the overall revenue.
 * **Segmentation:** Used `SWITCH` logic to categorize orders by volume (Small, Medium, Large, Bulk), allowing for targeted B2B vs B2C analysis.
-* **Geographic Trends:** (Add your specific finding here about Paris or Seattle based on your latest charts).
+* **Geographic :** Analysis reveals that Paris currently has no recorded sales, despite having a dedicated team and manager assigned to the region. This has been identified as a high-potential target area for future expansion and strategic focus.
 
 ---
 
